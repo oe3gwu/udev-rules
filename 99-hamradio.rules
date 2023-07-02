@@ -1,0 +1,4 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{serial}=="IC-7300 03011705", SYMLINK+="hamIC-7300"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{serial}=="IC-9700 13008019 A", SYMLINK+="hamIC-9700_A"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{serial}=="IC-9700 13008019 B", SYMLINK+="hamIC-9700_B"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="d013", SYMLINK+="hamSCSdragon"
